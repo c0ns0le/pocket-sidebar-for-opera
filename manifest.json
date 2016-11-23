@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+
+	"name": "Pocket Sidebar",
+	"description": "Pocket for Opera sidebar extention.",
+	"version": "1.0.0",
+	"icons": {
+		"16": "icons/16.png",
+		"19": "icons/19.png",
+		"38": "icons/38.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	],
+	"background": {"scripts": ["background.js"]},
+
+	"sidebar_action": {
+		"default_icon": {
+			"19": "icons/19.png",
+			"38": "icons/38.png"
+		},
+		"default_title": "pocket sidebar",
+		"default_panel": "sidebar.html"
+	}
+}
