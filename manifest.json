@@ -18,13 +18,12 @@
 		"<all_urls>"
 	],
 	"background": {"scripts": ["background.js"]},
-
 	"sidebar_action": {
 		"default_icon": {
 			"19": "icons/19.png",
 			"38": "icons/38.png"
 		},
-		"default_title": "pocket sidebar",
+		"default_title": "Pocket",
 		"default_panel": "sidebar.html"
 	}
 }
