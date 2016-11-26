@@ -3,7 +3,11 @@
 
 	"name": "Pocket Sidebar",
 	"description": "Pocket for Opera sidebar extention.",
-	"version": "1.0.0",
+	"developer": {
+		"name": "Megumingorz",
+		"url": "https://github.com/megumingorz/"
+	},
+	"version": "1.0.1",
 	"icons": {
 		"16": "icons/16.png",
 		"19": "icons/19.png",
