@@ -7,7 +7,7 @@
 		"name": "Megumingorz",
 		"url": "https://github.com/megumingorz/"
 	},
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"icons": {
 		"16": "icons/16.png",
 		"19": "icons/19.png",
@@ -19,7 +19,7 @@
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
-		"<all_urls>"
+		"https://getpocket.com/*"
 	],
 	"background": {"scripts": ["background.js"]},
 	"sidebar_action": {
